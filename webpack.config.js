@@ -3,11 +3,11 @@ const path = require('path');
 
 module.exports = {
   mode: 'development',
-  entry: './src/main.ts',
+  entry: './src/main.tsx',
   devtool: 'inline-source-map',
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Hello, world!',
+      template: 'src/index.html',
     }),
   ],
   module: {
