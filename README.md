@@ -32,6 +32,8 @@ And then the SWC guide:
 
 1. https://github.com/swc-project/swc-loader
 
+And then, adding html-webpack-plugin ESLint and Prettier.
+
 # YOUR PROJECT
 
 ## Set-up
