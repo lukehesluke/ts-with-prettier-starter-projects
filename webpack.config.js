@@ -13,7 +13,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.m?js$/,
+        test: /\.m?tsx?$/,
         exclude: /(node_modules|bower_components)/,
         use: {
           // Use `.swcrc` to configure swc
