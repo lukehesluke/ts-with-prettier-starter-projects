@@ -53,3 +53,13 @@ npm run serve
 
 - In one terminal, build and watch for changes: `npm run build:watch`
 - In another terminal, serve the app to `http://localhost:8080` with `npm run serve`
+
+## Testing
+
+```sh
+npm test
+```
+
+This checks for errors with ESLint, Prettier and TypeScript Compiler.
+
+**Note** that building uses SWC, rather than TypeScript Compiler and so does not find type errors.
