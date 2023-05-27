@@ -34,6 +34,13 @@ And then the SWC guide:
 
 # YOUR PROJECT
 
+## Set-up
+
+```sh
+nvm use # Pre-requisite: Have NVM
+npm install
+```
+
 ## Running
 
 ```sh
