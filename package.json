@@ -1,8 +1,12 @@
 {
-  "name": "@ts-with-prettier-starter-projects/branch-name",
+  "name": "@ts-with-prettier-starter-projects/nodejs",
   "version": "0.0.0",
-  "description": "Fairly minimal TypeScript starter project",
+  "description": "Fairly minimal NodeJS TypeScript starter project",
   "scripts": {
+    "start": "node dist/main.js",
+    "start:watch": "nodemon dist/main.js",
+    "build": "npm run clean && tsc",
+    "build:watch": "npm run clean && tsc --watch",
     "ts-check": "tsc --noEmit",
     "test": "npm run lint && npm run prettier-format && npm run ts-check",
     "clean": "rm -rf dist",
@@ -12,11 +16,13 @@
   "author": "Luke Winship",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^20.2.3",
     "@typescript-eslint/eslint-plugin": "^5.59.7",
     "@typescript-eslint/parser": "^5.59.7",
     "eslint": "^8.41.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.22",
     "prettier": "^2.8.8",
     "typescript": "^5.0.4"
   }

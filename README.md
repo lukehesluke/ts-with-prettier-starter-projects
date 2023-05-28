@@ -1,6 +1,6 @@
-# ts-with-prettier-starter-projects/\<BRANCH NAME>
+# ts-with-prettier-starter-projects/nodejs
 
-Fairly minimal TypeScript starter project. It contains:
+Fairly minimal NodeJS TypeScript starter project. It contains:
 
 - NVM is set to node LTS (at time of writing)
 - TSConfig includes strict mode and is otherwise fairly standard
@@ -32,6 +32,18 @@ That's it. Bye 🦧
 nvm use # Pre-requisite: Have NVM
 npm install
 ```
+
+## Running
+
+```sh
+npm run build
+npm start
+```
+
+## Running (dev commands)
+
+- Build and rebuild on file change: `npm run build:watch`
+- Start and restart on build change: `npm run start:watch`
 
 ## Testing
 
