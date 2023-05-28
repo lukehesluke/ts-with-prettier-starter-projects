@@ -1,4 +1,4 @@
-# ts-browser-starter
+# ts-with-prettier-starter-projects/browser-with-react
 
 Fairly minimal browser TypeScript starter project. It contains:
 

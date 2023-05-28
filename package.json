@@ -1,5 +1,5 @@
 {
-  "name": "ts-browser-starter",
+  "name": "@ts-with-prettier-starter-projects/browser-with-react",
   "version": "0.0.0",
   "description": "Fairly minimal browser TypeScript starter project",
   "scripts": {
