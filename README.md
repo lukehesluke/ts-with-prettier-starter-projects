@@ -9,7 +9,7 @@ Fairly minimal browser TypeScript starter project. It contains:
 - Webpack and SWC for building TypeScript files -> JavaScript
   - It uses content hashing so that changes can be seen when refreshing the page in a caching browser
 - html-webpack-plugin is used to build a minimal HTML page which calls the built JavaScript files
-- React.js with `.tsx` files **in the `with-react` branch**.
+- React.js with `.tsx` files **in the [`with-react`](../../tree/with-react) branch**.
 
 That's it. Bye 🦧
 
