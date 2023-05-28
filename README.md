@@ -16,7 +16,7 @@ That's it. Bye 🦧
 
 1. Fork this project
 2. Update `.name` and `.description` in `package.json`
-3. Update `.title` in the `HtmlWebpackPlugin` args in `webpack.config.js`
+3. Update `<title>` in `src/index.html`
 4. Remove this first section of the README.md
 5. Rename "YOUR PROJECT" in the next section
 6. hav fun 🍌
