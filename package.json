@@ -4,7 +4,7 @@
   "description": "Fairly minimal browser TypeScript starter project",
   "scripts": {
     "ts-check": "tsc --noEmit",
-    "test": "npm run lint && npm run prettier-format && npm run type-check",
+    "test": "npm run lint && npm run prettier-format && npm run ts-check",
     "clean": "rm -rf dist",
     "build": "npm run clean && webpack",
     "build:watch": "npm run clean && webpack --watch",
