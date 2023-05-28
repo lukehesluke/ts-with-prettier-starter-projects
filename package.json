@@ -1,33 +1,23 @@
 {
-  "name": "ts-browser-starter",
+  "name": "@ts-with-prettier-starter-projects/branch-name",
   "version": "0.0.0",
-  "description": "Fairly minimal browser TypeScript starter project",
+  "description": "Fairly minimal TypeScript starter project",
   "scripts": {
     "ts-check": "tsc --noEmit",
-    "test": "npm run lint && npm run prettier-format && npm run type-check",
+    "test": "npm run lint && npm run prettier-format && npm run ts-check",
     "clean": "rm -rf dist",
-    "build": "npm run clean && webpack",
-    "build:watch": "npm run clean && webpack --watch",
-    "serve": "cd dist && http-server",
     "lint": "eslint src --ext .ts",
     "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write"
   },
   "author": "Luke Winship",
   "license": "ISC",
   "devDependencies": {
-    "@swc/core": "^1.3.60",
     "@typescript-eslint/eslint-plugin": "^5.59.7",
     "@typescript-eslint/parser": "^5.59.7",
     "eslint": "^8.41.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "html-webpack-plugin": "^5.5.1",
-    "http-server": "^14.1.1",
     "prettier": "^2.8.8",
-    "swc-loader": "^0.2.3",
-    "ts-loader": "^9.4.3",
-    "typescript": "^5.0.4",
-    "webpack": "^5.84.1",
-    "webpack-cli": "^5.1.1"
+    "typescript": "^5.0.4"
   }
 }
