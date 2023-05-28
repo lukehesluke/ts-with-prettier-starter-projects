@@ -4,13 +4,13 @@
   "description": "Fairly minimal browser TypeScript starter project",
   "scripts": {
     "ts-check": "tsc --noEmit",
-    "test": "npm run lint && npm run prettier-format && npm run type-check",
+    "test": "npm run lint && npm run prettier-format && npm run ts-check",
     "clean": "rm -rf dist",
     "build": "npm run clean && webpack",
     "build:watch": "npm run clean && webpack --watch",
     "serve": "cd dist && http-server",
-    "lint": "eslint src --ext .ts",
-    "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write"
+    "lint": "eslint src --ext .ts --ext .tsx",
+    "prettier-format": "prettier --config .prettierrc 'src/**/*.{ts,tsx}' --write"
   },
   "author": "Luke Winship",
   "license": "ISC",
