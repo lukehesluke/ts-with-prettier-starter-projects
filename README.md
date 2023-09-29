@@ -12,11 +12,12 @@ That's it. Bye 🦧
 ## Using this Starter Project
 
 1. `git clone` this project
-2. Replace the git repo with `rm -rf .git && git init`
-3. Update `.name` and `.description` in `package.json`
-4. Rename "YOUR PROJECT" in the next section
-5. Remove this first section of the README.md
-6. hav fun 🍌
+2. `git switch <BRANCH NAME>` to switch to this branch
+3. Replace the git repo with `rm -rf .git && git init`
+4. Update `.name` and `.description` in `package.json`
+5. Rename "YOUR PROJECT" in the next section
+6. Remove this first section of the README.md
+7. hav fun 🍌
 
 ## How it was made
 
