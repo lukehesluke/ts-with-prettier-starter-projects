@@ -51,8 +51,11 @@ npm run serve
 
 ## Running (dev commands)
 
-- In one terminal, build and watch for changes: `npm run build:watch`
-- In another terminal, serve the app to `http://localhost:8080` with `npm run serve`
+```sh
+npm run start:dev
+```
+
+This will build and serve the project, rebuilding and reloading the page when there are any changes.
 
 ## Testing
 
