@@ -15,7 +15,7 @@ That's it. Bye 🦧
 ## Using this Starter Project
 
 1. `git clone` this project
-2. `git switch <BRANCH NAME>` to switch to this branch
+2. `git switch browser` to switch to this branch
 3. Replace the git repo with `rm -rf .git && git init`
 4. Update `.name` and `.description` in `package.json`
 5. Update `.title` in the `HtmlWebpackPlugin` args in `webpack.config.js`
