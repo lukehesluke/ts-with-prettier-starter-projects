@@ -15,11 +15,13 @@ That's it. Bye 🦧
 ## Using this Starter Project
 
 1. `git clone` this project
-2. Replace the git repo with `rm -rf .git && git init`
-3. Update `<title>` in `src/index.html`
-4. Rename "YOUR PROJECT" in the next section
-5. Remove this first section of the README.md
-6. hav fun 🍌
+2. `git switch browser` to switch to this branch
+3. Replace the git repo with `rm -rf .git && git init`
+4. Update `.name` and `.description` in `package.json`
+5. Update `<title>` in `src/index.html`
+6. Rename "YOUR PROJECT" in the next section
+7. Remove this first section of the README.md
+8. hav fun 🍌
 
 ## How it was made
 
