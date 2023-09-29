@@ -10,7 +10,8 @@
     "build:watch": "npm run clean && webpack --watch",
     "serve": "cd dist && http-server",
     "lint": "eslint src --ext .ts",
-    "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write"
+    "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write",
+    "start:dev": "webpack serve --live-reload"
   },
   "author": "Luke Winship",
   "license": "ISC",
@@ -28,7 +29,8 @@
     "ts-loader": "^9.4.3",
     "typescript": "^5.0.4",
     "webpack": "^5.84.1",
-    "webpack-cli": "^5.1.1"
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.1"
   },
   "engines": {
     "node": "18.16.0"
