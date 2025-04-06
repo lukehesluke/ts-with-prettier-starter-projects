@@ -1,3 +1,5 @@
+_Last updated: 2025-04-06_
+
 # ts-with-prettier-starter-projects
 
 A small collection of fairly minimal [TypeScript](https://www.typescriptlang.org/) starter projects that include [Prettier](https://prettier.io/).
